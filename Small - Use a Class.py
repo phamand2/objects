@@ -34,7 +34,7 @@ class Person:
 
 #
     def num_friends(self):
-      print(len(self.friends))
+      return(len(self.friends))
 
     def greeting_count(self):
         return self.greetingcount
@@ -71,3 +71,5 @@ sonny.greet(jordan)
 sonny.greet(jordan)
 
 print(sonny.greeting_count())
+
+print(f'Sonny has {sonny.num_friends()} friends') 
